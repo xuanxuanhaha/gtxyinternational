@@ -10,4 +10,25 @@
 <body>
   <app-root></app-root>
 </body>
+<style>
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+    scrollbar-color: transparent;
+  }
+  body {
+    scrollbar-width: none;
+    margin: 0;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+  }
+</style>
 </html>

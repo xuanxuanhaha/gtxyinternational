@@ -1,0 +1,95 @@
+<div style="position: fixed;width: 100%">
+<!--English / Chinese-->
+<div class="englishchinesebackground">
+  <div class="maxwidthforenglishchiniese">
+    <div class="englishchinesewordings">
+      <a>ENGLISH</a>
+      <a>|</a>
+      <a>中文</a>
+    </div>
+  </div>
+</div>
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light navbarwholeborder">
+  <div class="navbar-header">
+
+    <!--<button class="navbar-toggler toggler-example collapsed" type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse" id="menuButton"-->
+    <!--aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text navbar-toggler-icon"><i-->
+    <!--class="fas fa-bars fa-1x"></i></span></button>-->
+    <button class="navbar-toggler toggler-example collapsed" type="button" data-target=".navbar-ex1-collapse" data-toggle="collapse"  id="menuButton" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line" style="margin-bottom: 0;"></span>
+    </button>
+  </div>
+
+  <a class="navbar-brand" title="Go to home page" href="/">
+<!--        <span class="LogoText">-->
+<!--            <picture class="lazy">-->
+<!--                <source type="image/webp" srcset="./../../assets/maincampuslogo.jpg"/>-->
+<!--                <img class="z-depth-1" id="aimage" src="./../../assets/images/ANCC.png"-->
+<!--                     alt="Australian National Character Check">-->
+<!--               </picture>-->
+<!--        </span>-->
+    <div class="row">
+                    <img class="z-depth-1" src="./../../assets/maincampuslogo.jpg"
+                         alt="Main Campus Logo">
+    <img class="z-depth-2"  src="./../../assets/internationaldepartmentlogo.jpg"
+         alt="Main Campus Logo">
+    </div>
+  </a>
+
+
+  <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbarNavDropdown">
+
+    <ul class="navbar-nav" style="list-style: none">
+      <li class="nav-item active navitems abc abcfaqs">
+        <!--<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
+        <a class="nav-link" [routerLink]="['/FAQs-Static']">
+          Home
+        </a>
+      </li>
+
+      <li class="nav-item active navitems abc">
+        <a class="nav-link"  [routerLink]="['/Start-a-Check']" >
+          Overseas Students
+        </a>
+      </li>
+
+      <li class="nav-item active navitems abc ">
+        <a class="nav-link"  [routerLink]="['/Resume-a-Check']">
+          Overseas Training
+        </a>
+      </li>
+
+      <li class="nav-item active navitems abc ">
+        <a class="nav-link" [routerLink]="['/Track-a-Check']" >
+          News
+        </a>
+      </li>
+
+      <li class="nav-item active navitems abc ">
+        <a class="nav-link"  [routerLink]="['/Verify-a-Check']" >
+          Learning Resources
+        </a>
+      </li>
+
+      <li class="nav-item dropdown navitems abc">
+
+        <a class="nav-link" [routerLink]="['/Verify-a-Check']" >
+          About us
+        </a>
+      </li>
+
+
+
+    </ul>
+  </div>
+
+
+
+
+</nav>
+</div>
