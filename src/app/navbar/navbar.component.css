@@ -138,14 +138,18 @@
   .abcfaqs{
     margin-top: 0;
   }
-  .navbar-toggler{
-    display: none;
-  }
+
   .abc{
     text-align: center;
     margin-left: 4%;
   }
 }
+@media screen and (min-width: 768px){
+  .navbar-toggler{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 926px) and (min-width: 852px){
   .abc{
     text-align: center;
@@ -167,6 +171,7 @@
     width: 100%;
   }
 }
+
 .dark-blue-text{
   color: rgb(0,113,186);
 }
@@ -177,5 +182,72 @@
 .z-depth-2{
   width: 50%;
   margin-top: -20px;
-
 }
+@media screen and (min-width: 768px){
+  .mobilenavbar{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px){
+  .desktopnavbar{
+    display: none;
+  }
+
+  .navbar-brand{
+    left: 30px;
+  }
+  .navbar-brand{
+    width: 100%;
+  }
+  .z-depth-1{
+    width: 20%;
+  }
+  .z-depth-2{
+    width: 35%;
+  }
+  .navbar-toggler1{
+    width: 47px;
+    height: 34px;
+    background-color:#293670;
+    border:none;
+    margin-left: 50px;
+  }
+  .navbar-toggler1 .line{
+    width: 50px;
+    float: left;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 15px;
+    outline: navy;
+  }
+  .navbar-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .english-chinese{
+    color: white;
+  }
+  .mobileenglishchinese{
+    position:absolute;top: 120px;color:#fff;right: 20px;
+  }
+  .englishchinesewordings a{
+    font-size: 20px;
+  }
+  .englishchinesewordings{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .abcfaqs{
+    margin-top: 10px;
+  }
+  .abc{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .abc a{
+    color: white;
+  }
+}
+

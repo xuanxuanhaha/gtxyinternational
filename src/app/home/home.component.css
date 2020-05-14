@@ -1,0 +1,11 @@
+.homebanner {
+  display: flex;
+  justify-content: center;
+}
+.homebannerimg{
+  width: 1180px;
+  margin: auto;
+}
+.mainsection{
+  background-color: #f2f4fb;
+}
