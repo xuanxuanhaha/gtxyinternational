@@ -1,11 +1,18 @@
 .homebanner {
   display: flex;
   justify-content: center;
+  height: auto;
+
 }
-.homebannerimg{
-  width: 1180px;
+.homebanner img{
+  height: auto;
   margin: auto;
+  width: 1180px;
 }
 .mainsection{
+  width: 100%;
   background-color: #f2f4fb;
+}
+.threeboxesinmainsection{
+  margin: auto;width: 1180px;
 }
