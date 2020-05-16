@@ -4,239 +4,462 @@
   height: auto;
 
 }
-.homebanner img{
+
+.homebanner img {
   height: auto;
   margin: auto;
   width: 1180px;
 }
-.mainsection{
+
+.mainsection {
   width: 100%;
   background-color: #f2f4fb;
 }
-.threeboxesinmainsection{
-  margin: auto;width: 1180px;
+
+.threeboxesinmainsection {
+  margin: auto;
+  width: 1180px;
 }
-.threeboxesinmainsectionunder{
-  margin: auto;width: 1180px;
+
+.threeboxesinmainsectionunder {
+  margin: auto;
+  width: 1180px;
 }
-.sixblueunderword{
+
+.sixblueunderword {
   font-size: 18px;
   color: white;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.sixblueunder{
-  background-color: #007db5;margin-top: -5px
+
+.sixblueunder {
+  background-color: #007db5;
+  margin-top: -5px
 }
-.twobluenews{
-  background-color: #007db5;height: 40px;margin: auto;margin-top: -55px;position: absolute;width: 95px;margin-left: 185px;
+
+.twobluenews {
+  background-color: #007db5;
+  height: 40px;
+  margin: auto;
+  margin-top: -55px;
+  position: absolute;
+  width: 95px;
+  margin-left: 185px;
 }
-.threebluenews{
-  background-color: #007db5;height: 40px;margin: auto;margin-top: -55px;position: absolute;width: 270px;margin-left: 10px
+
+.threebluenews {
+  background-color: #007db5;
+  height: 40px;
+  margin: auto;
+  margin-top: -55px;
+  position: absolute;
+  width: 270px;
+  margin-left: 10px
 }
-.twobluenews p{
+
+.twobluenews p {
   color: white;
   text-align: center;
   font-size: 18px;
 }
-.threebluenews p{
+
+.threebluenews p {
   color: white;
   text-align: center;
   font-size: 18px;
 }
-.wordingsintwothreewhite{
-  padding-left: 20px;padding-right: 20px;font-size: 18px;font-weight: bolder;padding-top: 20px;height: 150px;z-index: -1;
+
+.wordingsintwothreewhite {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-top: 20px;
+  height: 150px;
+  z-index: -1;
 }
-.wordingsintwothreeblue{
-  padding-left: 20px;padding-right: 20px;font-size: 18px;font-weight: bolder;padding-top: 20px;color: #007db5;
+
+.wordingsintwothreeblue {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-top: 20px;
+  color: #007db5;
 }
-.twothreewhite{
-  background-color: white;height: 260px;margin: auto;margin-top: -28px;position: absolute;width: 270px;margin-left: 10px
+
+.twothreewhite {
+  background-color: white;
+  height: 260px;
+  margin: auto;
+  margin-top: -28px;
+  position: absolute;
+  width: 270px;
+  margin-left: 10px
 }
-.orangeline{
-  border: 2px solid #f58a2e; margin-left: 20px;margin-right: 20px
+
+.orangeline {
+  border: 2px solid #f58a2e;
+  margin-left: 20px;
+  margin-right: 20px
 }
-.findoutmore{
-  text-align: right;padding-right: 20px
+
+.findoutmore {
+  text-align: right;
+  padding-right: 20px
 }
-.orangearrow{
-  color: #f58a2e;font-weight: bold
+
+.orangearrow {
+  color: #f58a2e;
+  font-weight: bold
 }
-.twothreebigborder{
-  width: 25%;margin-top: 40px
+
+.twothreebigborder {
+  width: 25%;
+  margin-top: 40px
 }
-.bottomthreeboxes{
+
+.bottomthreeboxes {
   width: 31%
 }
-.bottomthreeboxesunder{
+
+.bottomthreeboxesunder {
   width: 31%;
   margin-bottom: 30px;
 }
-.supportinternationalwording b{
+
+.supportinternationalwording b {
   font-size: 20px;
   color: #1d1c3c;
 }
-.supportinternationalwording p{
+
+.supportinternationalwording p {
   font-size: 15px;
   color: black;
 }
-.supportinternationalwording{
-  width: 80%;margin: auto;margin-bottom: 50px;
+
+.supportinternationalwording {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
 }
-.yourlifewording{
+
+.yourlifewording {
   color: #1d1c3c;
   font-size: 40px;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.lifethreeunderwhite{
+
+.lifethreeunderwhite {
   height: 200px;
   background-color: white;
 }
 
-.lifeatGRPcontentwordings b{
+.lifeatGRPcontentwordings b {
   font-size: 20px;
   color: #1d1c3c;
 }
-.lifeatGRPcontentwordings p{
+
+.lifeatGRPcontentwordings p {
   font-size: 15px;
   color: black;
   padding-top: 20px;
 }
-.lifeatGRPcontentwordings{
-  width: 80%;margin: auto;margin-bottom: 50px;  padding-top: 20px;
+
+.lifeatGRPcontentwordings {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-top: 20px;
 }
-.bottomthreeboxes{
+
+.bottomthreeboxes {
   padding-bottom: 50px;
 }
-.bottomthreeboxes{
+
+.bottomthreeboxes {
   margin-top: 100px;
 }
-.videopart{
-  width: 44%; margin-top: 40px
+
+.videopart {
+  width: 44%;
+  margin-top: 40px
 }
-.spacewidthbetweenvideo{
+
+.spacewidthbetweenvideo {
   width: 3%;
 }
-.spacewidthbetweennews{
+
+.spacewidthbetweennews {
   width: 3%;
 }
+
 @media screen and (max-width: 1250px) {
-  .homebanner img{
+  .homebanner img {
     height: auto;
     margin: auto;
     width: 90%;
   }
-  .threeboxesinmainsection{
-    margin: auto;width: 90%
+
+  .threeboxesinmainsection {
+    margin: auto;
+    width: 90%
   }
-  .threeboxesinmainsectionunder{
-    margin: auto;width: 90%
+
+  .threeboxesinmainsectionunder {
+    margin: auto;
+    width: 90%
   }
-  .twothreewhite{
+
+  .twothreewhite {
     width: 20.5%;
   }
-  .wordingsintwothreewhite{
+
+  .wordingsintwothreewhite {
     font-size: 14px;
   }
-  .twobluenews{
+
+  .twobluenews {
     width: 7.5%;
     margin-left: 14%;
   }
-  .threebluenews{
+
+  .threebluenews {
     width: 20.5%;
   }
-  .threebluenews p{
+
+  .threebluenews p {
     font-size: 14px;
   }
-  .twobluenews p{
+
+  .twobluenews p {
     font-size: 14px;
   }
-  .sixblueunderword{
+
+  .sixblueunderword {
     font-size: 14px;
   }
-  .lifeatGRPcontentwordings b{
+
+  .lifeatGRPcontentwordings b {
     font-size: 18px;
   }
-  .lifeatGRPcontentwordings p{
+
+  .lifeatGRPcontentwordings p {
     font-size: 12px;
   }
 
 }
+
 @media screen and (max-width: 1200px) {
-  .bottomthreeboxes{
+  .bottomthreeboxes {
     margin-top: 90px;
   }
 }
+
 @media screen and (max-width: 1100px) {
-  .bottomthreeboxes{
+  .bottomthreeboxes {
     margin-top: 70px;
   }
 }
+
 @media screen and (max-width: 1000px) {
-  .bottomthreeboxes{
+  .bottomthreeboxes {
     margin-top: 70px;
   }
-  .videopart{
-    width: 80%;margin: auto;margin-top: 40px;
+
+  .videopart {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
   }
-  .twothreebigborder{
+
+  .twothreebigborder {
     width: 48%;
-    margin-top: 10px;
+    margin-top: 30px;
   }
-  .spacewidthbetweenvideo{
+
+  .spacewidthbetweenvideo {
     width: 0;
   }
-  .threebigborder{
+
+  .threebigborder {
     margin-left: 3%;
   }
-  .twothreewhite{
+
+  .twothreewhite {
     width: 40.5%;
     margin-top: -40px;
   }
-  .twobluenews{
+
+  .twobluenews {
     width: 14.5%;
     margin-left: 27%;
     margin-top: -75px;
   }
-  .threebluenews{
+
+  .threebluenews {
     margin-top: -75px;
     width: 40.5%;
   }
-  .wordingsintwothreewhite{
+
+  .wordingsintwothreewhite {
     height: 110px;
   }
-  .twothreewhite{
+
+  .twothreewhite {
     height: 220px;
   }
-  .bottomthreeboxes{
+
+  .bottomthreeboxes {
     margin-top: 220px;
   }
-  .videopart{
+
+  .videopart {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 920px) {
-  .lifeatGRPcontentwordings b{
+  .lifeatGRPcontentwordings b {
     font-size: 15px;
   }
-  .wordingsintwothreewhite{
+
+  .wordingsintwothreewhite {
     font-size: 13px;
     font-weight: 600;
   }
-  .wordingsintwothreeblue{
+
+  .wordingsintwothreeblue {
     font-size: 14px;
   }
 
 }
+
 @media screen and (max-width: 800px) {
-  .lifeatGRPcontentwordings b{
+  .lifeatGRPcontentwordings b {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 767px) {
 
+
+@media screen and (min-width: 768px) {
+  .leftrightshow{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 600px) {
+  .homebanner {
+    margin-top: 100px;
+  }
+  .topbottomshow{
+    display: none;
+  }
+  .leftrightrow{
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 601px) {
+  .mobile600{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .homebanner img{
+    width: 100%;
+    margin-left: 0;
+  }
+  .desktop600{
+    display: none;
+  }
+  .twothreebigborder{
+    width: 100%;
+  }
+  .twothreewhite{
+    width: 85%;
+    margin-left: 2.5%;
+    height: 260px;
+  }
+  .twobluenews{
+    width: 30%;
+    margin-left: 57.5%;
+  }
+  .threebluenews{
+    width: 85%;
+    margin-left: 2.5%;
+  }
+  .twobluenews p{
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .threebluenews p{
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .wordingsintwothreewhite{
+    font-size: 20px;
+    width: 90%;margin: auto;height: 140px;
+  }
+  .wordingsintwothreeblue{
+    font-size: 20px;
+    width: 90%;margin: auto;
+  }
+  .threebigborder{
+    margin-left: 0;
+    margin-top: 250px;
+  }
+  .orangeline{
+    width: 81%;margin: auto;margin-top: 10px;
+  }
+  .findoutmore{
+    width: 90%;margin: auto;margin-top: 20px;
+  }
+  .bottomthreeboxes{
+    width: 100%;margin: auto;margin-bottom: -20px;
+  }
+  .bottomthreeboxes1{
+    margin-top: 260px;
+  }
+  .leftrightrow{
+    display: none;
+  }
+  .bottomthreeboxesunder{
+    width: 100%;
+  }
+  .lifeatGRPcontentwordings b{
+    font-size: 25px;
+  }
+  .lifeatGRPcontentwordings p{
+    font-size: 18px;
+  }
+  .lifethreeunderwhite{
+    height: auto;
+  }
+  .lifeatGRPcontentwordings{
+    padding-bottom: 30px;
+  }
+  .sixblueunderword{
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wordingsintwothreewhite{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .wordingsintwothreewhite{
+    font-size: 15px;
+  }
+  .lifeatGRPcontentwordings b{
+    font-size: 20px;
+  }
+  .lifeatGRPcontentwordings p{
+    font-size: 15px;
+  }
 }

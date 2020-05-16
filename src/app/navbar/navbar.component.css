@@ -25,7 +25,9 @@
   margin-left: 25px;
   font-family: 'Open Sans', sans-serif;
 }
-
+.navbar-brand{
+  width: 35%;
+}
 
 .abc{
   font-family: 'Open Sans', sans-serif;
@@ -51,6 +53,9 @@
 }
 .abc a{
   color: black;
+}
+.rowindesktopnavbar1{
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 1250px) {
@@ -137,7 +142,7 @@
     top:40px;
   }
   .navbar-brand{
-    position:absolute;left:30%;top:10px
+    position:absolute;left:30%;top:10px;
   }
   .navbar-toggler{
     width: 47px;
@@ -213,13 +218,48 @@
   color: rgb(0,113,186);
 }
 .z-depth-1{
-  width: 25%;
-  margin-top: -20px;
+  width: 35%;
+  margin-top: -30px;
 }
 .z-depth-2{
-  width: 50%;
-  margin-top: -20px;
+  width: 60%;
+  margin-top: -30px;
 }
+
+@media screen and (max-width: 1250px){
+  .z-depth-1{
+    width: 35%;
+    margin-top: -20px;
+  }
+  .z-depth-2{
+    width: 60%;
+    margin-top: -20px;
+  }
+  .navbarlogo1000{
+    width: 140%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .z-depth-1{
+    margin-top: -15px;
+  }
+  .z-depth-2{
+    margin-top: -15px;
+  }
+  .rowindesktopnavbar1{
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 900px){
+  .z-depth-1{
+    margin-top: -5px;
+  }
+  .z-depth-2{
+    margin-top: -5px;
+  }
+}
+
 @media screen and (min-width: 768px){
   .mobilenavbar{
     display: none;
