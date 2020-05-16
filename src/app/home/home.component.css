@@ -16,3 +16,91 @@
 .threeboxesinmainsection{
   margin: auto;width: 1180px;
 }
+.sixblueunderword{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sixblueunder{
+  background-color: #007db5;margin-top: -5px
+}
+.twobluenews{
+  background-color: #007db5;height: 40px;margin: auto;margin-top: -55px;position: absolute;width: 95px;margin-left: 185px;
+}
+.threebluenews{
+  background-color: #007db5;height: 40px;margin: auto;margin-top: -55px;position: absolute;width: 270px;margin-left: 10px
+}
+.twobluenews p{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.threebluenews p{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.wordingsintwothreewhite{
+  padding-left: 20px;padding-right: 20px;font-size: 18px;font-weight: bolder;padding-top: 20px;height: 150px;z-index: -1;
+}
+.wordingsintwothreeblue{
+  padding-left: 20px;padding-right: 20px;font-size: 18px;font-weight: bolder;padding-top: 20px;color: #007db5;
+}
+.twothreewhite{
+  background-color: white;height: 260px;margin: auto;margin-top: -28px;position: absolute;width: 270px;margin-left: 10px
+}
+.orangeline{
+  border: 2px solid #f58a2e; margin-left: 20px;margin-right: 20px
+}
+.findoutmore{
+  text-align: right;padding-right: 20px
+}
+.orangearrow{
+  color: #f58a2e;font-weight: bold
+}
+.twothreebigborder{
+  width: 25%;margin-top: 40px
+}
+.bottomthreeboxes{
+  width: 31%
+}
+.supportinternationalwording b{
+  font-size: 20px;
+  color: #1d1c3c;
+}
+.supportinternationalwording p{
+  font-size: 15px;
+  color: black;
+}
+.supportinternationalwording{
+  width: 80%;margin: auto;margin-bottom: 50px;
+}
+.yourlifewording{
+  color: #1d1c3c;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.lifethreeunderwhite{
+  height: 200px;
+  background-color: white;
+}
+
+.lifeatGRPcontentwordings b{
+  font-size: 20px;
+  color: #1d1c3c;
+}
+.lifeatGRPcontentwordings p{
+  font-size: 15px;
+  color: black;
+  padding-top: 20px;
+}
+.lifeatGRPcontentwordings{
+  width: 80%;margin: auto;margin-bottom: 50px;  padding-top: 20px;
+}
+.bottomthreeboxes{
+  padding-bottom: 50px;
+}
