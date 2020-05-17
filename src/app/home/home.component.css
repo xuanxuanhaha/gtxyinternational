@@ -345,10 +345,25 @@
   .leftrightshow{
     display: none;
   }
+  .mobile600{
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
   .navbartohomebanner {
     height: 260px;
+  }
+  .homebannerimg{
+    width: 100%;
+  }
+  .navbartohomebanner{
+    height: 215px;
+  }
+  .desktop600{
+    display: none;
+  }
+  .mobile600{
+    width: 100%;
   }
 }
 @media screen and (max-width: 767px) and (min-width: 600px) {
@@ -361,17 +376,13 @@
   }
 }
 @media screen and (min-width: 601px) {
-  .mobile600{
-    display: none;
-  }
+
 }
 @media screen and (max-width: 600px) {
   .homebannerimg{
     width: 100%;
   }
-  .desktop600{
-    display: none;
-  }
+
   .navbartohomebanner{
     height: 215px;
   }
@@ -445,6 +456,7 @@
   }
   .lifeatGRPcontentwordings{
     padding-bottom: 30px;
+    margin-bottom: 20px;
   }
   .sixblueunderword{
     font-size: 18px;
