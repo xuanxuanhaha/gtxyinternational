@@ -342,6 +342,7 @@
 @media screen and (max-width: 400px){
   .z-depth-1{
     width: 80px;
+    height: 80px;
   }
   .z-depth-2{
     width: 180px;
