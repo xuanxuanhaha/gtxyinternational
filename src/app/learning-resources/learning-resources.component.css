@@ -6,9 +6,28 @@
   margin:auto;
   width: 1180px;
 }
+.homesmallwording{
+  width: 100%;
+  background-color: #f4f5fc;
+}
+.learningresourcesorangeword{
+  color: #fabb7c;
+}
+.widthofleftrightborder{
+  width: 1180px;
+  margin: auto;
+}
+.widthofleftrightborder p{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 @media screen and (max-width: 1250px) {
   .homebannerimg {
     width: 90%;
+  }
+  .widthofleftrightborder {
+    width: 90%
   }
 }
 @media screen and (max-width: 768px) {
@@ -24,6 +43,9 @@
   .homebannerimg{
     width: 100%;
   }
+  .widthofleftrightborder {
+    width: 100%
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -34,6 +56,9 @@
 @media screen and (max-width: 600px) {
   .homebannerimg {
     width: 100%;
+  }
+  .widthofleftrightborder {
+    width: 100%
   }
   .homebannerimgmobile{
     display: block;
