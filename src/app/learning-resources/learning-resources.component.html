@@ -17,6 +17,63 @@
     <p>Home / <span class="learningresourcesorangeword">Learning Resources</span></p>
   </div>
 </div>
-<div class="mainsection" style="margin: auto">
+<div class="mainsection row" style="margin: auto">
+  <div class="categorileft">
+    <div>
+    About Online Learning
+    </div>
+    <hr>
+    <div>
+    Library Resources
+    </div>
+    <hr>
+    <div>
+    Technical Training Platform
+    </div>
+    <hr>
+  </div>
 
+  <div class="mainresources">
+    <h1>Library Resources</h1>
+
+
+
+    <!--新闻板块1-->
+    <div class="desktopversion" (click)="onClickMe(id)" *ngFor="let article of articleListpage;let id = index">
+      <!--图片-->
+
+
+
+            <!--内容-->
+            <div style="margin-top: 20px">
+              <h5 style="color: black;text-align: left;">
+                {{article.Title}}
+              </h5>
+              <p>
+                {{article.Content.P1}}
+              </p>
+            </div>
+
+          </div>
+
+
+
+  </div>
+
+
+<!--  <div class="row" style="margin-bottom: 30px;margin-top: 30px;">-->
+<!--    <div class="col-md-12" style="text-align: center;">-->
+<!--      <button type="button" [disabled]="!preShow" (click)="showPrePage()">上一页</button>-->
+<!--      <input type="text" (change)="onChangePage($event.target.value)" placeholder="{{curPage}}" value="{{curPage}}">-->
+<!--      <span> / {{pageNo}} 页</span>-->
+<!--      <button type="button" [disabled]="!nextShow" (click)="showNextPage()">下一页</button>-->
+<!--      <span> 每页显示 : </span>-->
+
+<!--      <select (change)="onChangePageSize($event.target.value)">-->
+<!--        <option *ngFor="let pageSize of pageSizes" value="{{pageSize}}">{{pageSize}}</option>-->
+<!--      </select>-->
+<!--      <span>共{{articleListpage.length}}条</span>-->
+<!--    </div>-->
+
+<!--  </div>-->
 </div>

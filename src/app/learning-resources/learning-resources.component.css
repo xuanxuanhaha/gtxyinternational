@@ -6,6 +6,10 @@
   margin:auto;
   width: 1180px;
 }
+.mainsection{
+  width: 1180px;
+  margin: auto;
+}
 .homesmallwording{
   width: 100%;
   background-color: #f4f5fc;
@@ -22,6 +26,18 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.categorileft{
+  width: 15%;
+}
+.mainresources{
+  width: 80%;
+  padding-left: 5%;
+}
+.mainresources h1{
+  padding-left: 0;
+  margin-top: 40px;
+}
+
 @media screen and (max-width: 1250px) {
   .homebannerimg {
     width: 90%;
