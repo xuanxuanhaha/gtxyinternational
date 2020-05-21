@@ -13,28 +13,46 @@ export class LearningResourcesComponent implements OnInit {
   // article list
   public articleList: {
     Title: string
-    Content: {},
+    Content: {
+      P1: any;
+    },
   }[] = newsarticles;
 
   public articleListpage = [];  // 分页后前台显示数据
   pageNo = 1; // 当前页码
   preShow = false; // 上一页
   nextShow = true; // 下一页
-  pageSize = 5; // 单页显示数
+  pageSize = 10; // 单页显示数
   totalCount = 0; // 总页数
   pageSizes = [5, 10, 15];
   curPage = 1; // 当前页
   //
+
+  pageNoList = [];
+  firstload = true;
   constructor(private router: Router) { }
 
   ngOnInit() {
     //  显示每页的文章
     this.getPageList();
+    for (let i = 0; i < this.pageNo; i++){
+      this.pageNoList.push(i + 1);
+    }
+
+
+    console.log(this.pageNoList);
+    console.log(this.pageNo);
+
+
+
   }
   // 点击新闻事件
   onClickMe(id) {
-    const newsid = (this.curPage - 1) * 5 + id;
-    this.router.navigateByUrl('/newspagedongtai/' + newsid);
+    // console.log(id);
+    // console.log(this.articleList[id].Content);
+    const openurl = this.articleList[id].Content;
+    console.log(openurl.P1);
+    window.open(openurl.P1.toString());
   }
 //  -----------1。实现分页前端部分------------
   getPageList() {
@@ -60,6 +78,9 @@ export class LearningResourcesComponent implements OnInit {
       this.curPage = 1;
     }
     this.articleListpage = this.articleList.slice((this.curPage - 1) * this.pageSize, (this.curPage) * this.pageSize);
+
+
+
 
   }
 
@@ -98,6 +119,36 @@ export class LearningResourcesComponent implements OnInit {
     this.pageSize = value;
     this.curPage = 1;
     this.getPageList();
+  }
+
+  choosePage(value){
+    console.log('choosePage', value);
+    if (value > this.pageNo) {
+      confirm('超出最大页数');
+    } else if (value <= 0) {
+      this.curPage = 1;
+      this.getPageList();
+    } else {
+      this.curPage = value;
+      this.getPageList();
+    }
+
+
+    for(let i = 0; i < this.pageNo; i++){
+      if((i + 1) === value){
+
+        document.getElementById('page' + (i + 1)).style.background = 'orange';
+        document.getElementById('page' + (i + 1)).style.border = '1px solid orange';
+        document.getElementById('page' + (i + 1)).style.color = 'white';
+      }else{
+        document.getElementById('page' + (i + 1)).style.background = 'white';
+        document.getElementById('page' + (i + 1)).style.border = '1px solid lightgrey';
+        document.getElementById('page' + (i + 1)).style.color = 'orange';
+      }
+    }
+
+    this.firstload = false;
+
   }
 
   //  -----------1。实现分页前端部分------------
