@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
 <div>
   <app-navbar></app-navbar>
 </div>
@@ -17,21 +19,50 @@
     <p>Home / <span class="learningresourcesorangeword">Learning Resources</span></p>
   </div>
 </div>
-<div class="mainsection row" style="margin: auto">
-  <div class="categorileft">
-    <div>
+
+<div class="mobile600" style="background-color: #fee6cf;margin-top: -10px">
+
+  <div class="widthofleftrightborder" style="padding-top: 10px;padding-bottom: 10px" (click)="showmoreoflibraryresources()">
+
+    <span class="glyphicon glyphicon-menu-down" style="font-size: 15px;" [hidden]="showmoreinlibraryresources"></span>
+    <span class="glyphicon glyphicon-menu-up" style="font-size: 15px;" [hidden]="!showmoreinlibraryresources"></span>
+    <span style="margin-left: 10px">Library Resources</span>
+  </div>
+  <div class="widthofleftrightborder" style="padding-top: 10px;padding-bottom: 10px" [hidden]="!showmoreinlibraryresources">
+
+    <div style="padding-left: 22px">
       About Online Learning
     </div>
-    <hr>
-    <div>
+    <div style="padding-left: 22px;margin-top: 20px">
+      Technical Training Platform
+    </div>
+  </div>
+
+
+
+</div>
+
+
+<div class="mainsection row" style="margin: auto">
+  <div class="categorileft desktop600">
+    <div class="leftsideword" id="aboutonlinelearning">
+      About Online Learning
+    </div>
+    <hr class="lineinleftside">
+    <div class="leftsideword" id="libraryresources" (click)="chooselibraryresources()">
       Library Resources
     </div>
-    <hr>
-    <div>
+    <hr class="lineinleftside">
+    <div class="leftsideword" id="technicaltrainingplatform">
       Technical Training Platform
     </div>
     <hr>
   </div>
+
+
+
+
+
 
   <div class="mainresources">
     <h1>Library Resources</h1>

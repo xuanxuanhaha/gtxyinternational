@@ -30,6 +30,7 @@ export class LearningResourcesComponent implements OnInit {
 
   pageNoList = [];
   firstload = true;
+  showmoreinlibraryresources = false;
   constructor(private router: Router) { }
 
   ngOnInit() {
@@ -43,6 +44,7 @@ export class LearningResourcesComponent implements OnInit {
     console.log(this.pageNoList);
     console.log(this.pageNo);
 
+    this.chooselibraryresources();
 
 
   }
@@ -152,5 +154,11 @@ export class LearningResourcesComponent implements OnInit {
   }
 
   //  -----------1。实现分页前端部分------------
+  showmoreoflibraryresources(){
+    this.showmoreinlibraryresources = !this.showmoreinlibraryresources;
+  }
+  chooselibraryresources(){
+    document.getElementById('libraryresources').style.background = '#fee6cf';
+  }
 
 }

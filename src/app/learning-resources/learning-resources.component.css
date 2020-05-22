@@ -40,7 +40,7 @@
 }
 .paginationbtn{
   border:2px solid lightgrey;color: #f58a2e;margin-left: 10px;background-color: white;
-  border-radius: 0;font-weight: 600;font-size: 15px;width: 30px;height: 30px;padding-top: 2px;
+  border-radius: 0;font-weight: 600;font-size: 15px;width: 30px;height: 30px;padding-top: 2px;padding-left: 10px;
 }
 .paginationbtn:hover{
   border: 2px solid #f58a2e;color: #f58a2e;
@@ -57,7 +57,16 @@
 .pagibuttons{
   margin:auto;margin-top: 60px;margin-bottom: 100px;margin-left: 10%
 }
-
+.lineinleftside{
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid black;
+}
+.leftsideword{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
 @media screen and (max-width: 1250px) {
   .homebannerimg {
     width: 90%;

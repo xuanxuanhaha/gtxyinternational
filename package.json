@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~8.2.9",
     "@angular/router": "~8.2.9",
     "bootstrap": "^3.4.1",
+    "glyphicons": "^0.2.0",
     "jquery": "^3.5.1",
     "mat-video": "^2.8.1",
     "ngx-bootstrap": "^5.6.1",
