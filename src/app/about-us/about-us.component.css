@@ -1,0 +1,184 @@
+.homebannerimg{
+  display: block;
+  margin:auto;
+  width: 1180px;
+}
+.aboutGRPbody{
+  margin:auto;
+  width: 1180px;
+}
+.navbartohomebanner{
+  height: 150px;
+}
+
+.mainsection {
+  width: 100%;
+  background-color: #f2f4fb;
+}
+.homesmallwording{
+  width: 100%;
+  background-color: #f4f5fc;
+}
+.learningresourcesorangeword{
+  color: #fabb7c;
+}
+.widthofleftrightborder{
+  width: 1180px;
+  margin: auto;
+}
+.photogallery{
+  position: absolute;
+}
+.widthofleftrightborder p{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.aboutGRPbody h1{
+  color: #15103d;font-size: 40px;font-weight: 600;margin-top: 40px; margin-bottom: 40px;
+}
+.aboutGRPbody p{
+  font-size: 20px;
+}
+.photogallery{
+  margin:auto;
+  width: 1180px;
+}
+.photogallery h1{
+  color: #15103d;font-size: 40px;font-weight: 600;margin-top: 40px; margin-bottom: 40px;
+}
+.photogallery p{
+  font-size: 20px;
+}
+.galleryimg{
+  height: 100%;
+  width: 24.5%;
+  margin-left: 0.5%;
+}
+.galleryimg1_{
+  margin-left: 0.25%;
+}
+.galleryimg2_{
+  margin-top: -4.5%;
+}
+.galleryimg2_2{
+  margin-top: 0.5%;
+}
+.galleryimg2_3{
+ margin-top: 0.6%;
+}
+.galleryimg3_{
+  margin-top: -14.5%;
+  width: 32.8%;
+}
+.galleryimg3_2{
+  width: 16.2%;
+}
+.galleryimg3_4{
+  margin-top: -14.5%;
+  /*margin-top: -170px;*/
+  width: 24.65%;
+}
+.galleryimg4_{
+  width: 49.5%;
+  margin-top: -19.5%;
+}
+.footertopheight{
+  margin-top: 460px;
+}
+@media screen and (max-width: 1250px) {
+  .homebannerimg {
+    width: 90%;
+  }
+  .aboutGRPbody{
+    width: 90%;
+  }
+  .photogallery{
+    width: 90%;
+  }
+  .widthofleftrightborder {
+    width: 90%
+  }
+  .mainsection{
+    width: 90%;
+  }
+
+  .footertopheight{
+    margin-top: 35vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .mobile600{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .homebannerimg {
+    width: 100%;
+  }
+  .aboutGRPbody{
+    width: 90%;
+  }
+  .photogallery{
+    width: 90%;
+  }
+  .desktop600{
+    display: none;
+  }
+  .mobile600{
+    width: 100%;
+  }
+  .navbartohomebanner {
+    height: 215px;
+  }
+  .widthofleftrightborder {
+    width: 90%;
+    padding-left: 5%;
+  }
+  .photogallery h1{
+    text-align: center;
+  }
+  .aboutGRPbody h1{
+    text-align: center;
+  }
+  .galleryimg{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .photogallery{
+    position: relative;
+  }
+  .showmorebtn{
+    font-size: 30px;
+    color: #f58a2e;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+  .showmorebtn hr{
+    width: 200px;
+    border: 1px solid #f58a2e;
+  }
+  .footertopheight{
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /*.homebannerimg {*/
+  /*  width: 100%;*/
+  /*}*/
+  /*.aboutGRPbody{*/
+  /*  width: 100%;*/
+  /*}*/
+  /*.photogallery{*/
+  /*  width: 100%;*/
+  /*}*/
+  .navbartohomebanner {
+    height: 215px;
+  }
+
+}

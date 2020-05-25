@@ -55,8 +55,9 @@ export class NavbarComponent implements OnInit {
     }else{
       document.getElementById('learning-resources').style.border = '1px solid white';
       document.getElementById('learning-resources-a').style.color = 'navy';
-      document.getElementById('earning-resources-a').style.fontWeight = '400';
+      document.getElementById('learning-resources-a').style.fontWeight = '400';
     }
+
     if(window.location.href.includes('about-us')){
       document.getElementById('about-us').style.border = '1px solid #fabb7c';
       document.getElementById('about-us-a').style.color = '#fabb7c';
