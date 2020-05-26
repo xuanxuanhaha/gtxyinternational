@@ -158,6 +158,8 @@
     width: 100%;
     line-height: 30px;
     padding-top: 30px;
+    background-color: transparent;
+    border: 1px solid transparent;
   }
   .showmorebtn hr{
     width: 200px;
