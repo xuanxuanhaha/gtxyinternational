@@ -1,0 +1,275 @@
+.homebannerimg{
+  display: block;
+  margin:auto;
+  width: 1180px;
+}
+.navbartohomebanner{
+  height: 150px;
+}
+
+.mainsection {
+  width: 100%;
+  background-color: #f2f4fb;
+}
+.homesmallwording{
+  width: 100%;
+  background-color: #f4f5fc;
+}
+.learningresourcesorangeword{
+  color: #fabb7c;
+}
+.widthofleftrightborder{
+  width: 1180px;
+  margin: auto;
+}
+.widthofleftrightborder p{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.atabroadback{
+  margin:auto;
+  width: 1180px;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.atabroadwords h1{
+  color: #15103d;font-size: 40px;font-weight: 600;margin-top: 40px;margin-left: 20px;
+}
+.atabroadwords p{
+  font-size: 20px;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.atabroadwords{
+  background-color: #f4f5fc;
+  width: 49%;
+}
+.atabroadimg{
+  width: 50%;
+}
+.atabroadimg1{
+  width: 100%;
+  margin-bottom: 3px;
+}
+.atabroadimg2_1{
+  width: 52.6%;
+}
+.atabroadimg2_2{
+  width: 47%;
+  margin-left: 0.4%;
+}
+.atabroadimg3_1{
+  width: 49.75%;
+}
+.atabroadimg3_2{
+  width: 49.75%;
+  margin-left: 0.5%;
+}
+.atabroadwords hr{
+  width: 300px;border-bottom:2px solid #fabb7c;margin-left: 20px;
+}
+@media screen and (max-width: 1250px) {
+  .homebannerimg {
+    width: 90%;
+  }
+
+  .atabroadback {
+    width: 1000px;
+  }
+  .atabroadwords h1{
+    margin-top: 20px;
+  }
+
+  .atabroadwords p{
+    font-size: 17px;
+    padding-top: 10px;
+  }
+
+
+  .photogallery {
+    width: 90%;
+  }
+
+  .widthofleftrightborder {
+    width: 90%
+  }
+}
+
+@media screen and (max-width: 1100px) {
+
+  .atabroadback {
+    width: 900px;
+  }
+  .atabroadwords h1{
+    font-size: 30px;
+  }
+  .atabroadwords p{
+    font-size: 15px;
+  }
+  .atabroadback{
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (max-width: 990px) {
+  .atabroadback {
+    width: 800px;
+  }
+  .atabroadwords h1{
+    font-size: 25px;
+  }
+  .atabroadwords p{
+    font-size: 13px;
+  }
+  .atabroadback{
+    margin-top: 50px;
+  }
+
+}
+@media screen and (max-width: 880px) {
+  .atabroadback {
+    width: 700px;
+  }
+  .atabroadwords h1{
+    font-size: 23px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  .atabroadwords hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+
+  }
+  .atabroadwords p{
+    font-size: 10px;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .atabroadback{
+    margin-top: 50px;
+  }
+
+}
+@media screen and (min-width: 769px) {
+  .mobile600{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .homebannerimg {
+    width: 100%;
+  }
+
+  .atabroadback {
+    width: 90%;
+  }
+  .atabroadwords h1{
+    text-align: center;
+  }
+
+  .desktop600 {
+    display: none;
+  }
+
+  .mobile600 {
+    width: 100%;
+  }
+
+  .navbartohomebanner {
+    height: 215px;
+  }
+  .desktop600{
+    display: none;
+  }
+  .mobile600{
+    width: 100%;
+  }
+  .widthofleftrightborder {
+    width: 90%;
+    padding-left: 5%;
+  }
+  .atabroadwords{
+    background-color: white;
+    width: 100%;
+  }
+  .atabroadwords hr{
+    display: none;
+  }
+  .atabroadwords h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+  .atabroadwords p{
+    font-size: 28px;
+    text-align: center;
+  }
+  .atabroadimg{
+    width: 100%;
+  }
+  .atabroadimg1{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .atabroadimg2_1{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .atabroadimg2_2{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .atabroadimg3_1{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .atabroadimg3_2{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .width1{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbartohomebanner {
+    height: 215px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+.atabroadwords h1{
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.atabroadwords p{
+  font-size: 20px;
+  text-align: center;
+}
+}
+@media screen and (max-width: 470px) {
+  .atabroadwords h1{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  .atabroadwords p{
+    font-size: 15px;
+    text-align: center;
+  }
+}
