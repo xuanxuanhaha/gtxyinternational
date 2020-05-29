@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
+    window.scrollTo(0, 0);
   }
 
 }

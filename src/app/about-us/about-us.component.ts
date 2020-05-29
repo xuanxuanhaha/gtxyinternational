@@ -12,6 +12,7 @@ export class AboutUsComponent implements OnInit {
   showmore = false;
   ngOnInit() {
     this.showmore = false;
+    window.scrollTo(0, 0);
   }
 
   showmorebtn(){

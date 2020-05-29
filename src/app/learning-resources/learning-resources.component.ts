@@ -34,6 +34,7 @@ export class LearningResourcesComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
     //  显示每页的文章
     this.getPageList();
     for (let i = 0; i < this.pageNo; i++){
