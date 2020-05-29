@@ -1,0 +1,428 @@
+.homebannerimg{
+  display: block;
+  margin:auto;
+  width: 1180px;
+}
+.navbartohomebanner{
+  height: 150px;
+}
+
+.mainsection {
+  width: 100%;
+  background-color: #f2f4fb;
+}
+.homesmallwording{
+  width: 100%;
+  background-color: #f4f5fc;
+}
+.learningresourcesorangeword{
+  color: #fabb7c;
+}
+.widthofleftrightborder{
+  width: 1180px;
+  margin: auto;
+}
+.widthofleftrightborder p{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.atabroadback{
+  margin:auto;
+  width: 1180px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.atabroadbackwholeborder{
+  margin:auto;
+  width: 1180px;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.titlename{
+  color: #15103d;font-size: 40px;font-weight: 600;margin-top: 40px;margin-left: 0;margin-bottom: 30px;
+}
+.atabroadwords p{
+  font-size: 24px;
+  padding:25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: whitesmoke;
+  font-weight: 300;
+  background-color: #0064a3;
+  margin-bottom: 0;
+}
+.atabroadwords{
+  /*background-color: #f4f5fc;*/
+  width: 59%;
+}
+.atabroadimg{
+  width: 40%;
+}
+.atabroadimg1{
+  width: 49.5%;
+  margin-bottom: 3px;
+}
+.atabroadimg2{
+  width: 49.5%;
+   /*height: 49%;*/
+  margin-left: 1%;
+  margin-top: -4px;
+ }
+.atabroadimg3{
+  width: 49.5%;
+}
+.atabroadimg4{
+  width: 49.5%;
+  margin-left: 1%;
+}
+.atabroadwords hr{
+  width: 300px;border-bottom:2px solid #fabb7c;margin-left: 20px;
+}
+.threeboxesinmainsectionunder {
+  margin: auto;
+  width: 1180px;
+}
+.secondsection{
+  background-color: #f4f5fc;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  margin-top: 80px;
+}
+.leftrightrow{
+  margin-left: 0;
+  margin-right: 0;
+}
+.bottomthreeboxesunder{
+  width: 50%;
+}
+.lifethreeunderwhite{
+  width: 50%;
+}
+.secondsectionimg{
+  width: 100%;
+}
+.secondsectionrightwordingbox{
+  background-color: white;
+}
+.secondsectionrightwordingbox p{
+  font-size: 20px;
+  padding: 18px;
+  margin-bottom: 0;
+}
+.lifethreeunderwhite{
+  background-color: white;
+}
+.leftrightrow{
+  margin-top: 20px;
+}
+.learningimg{
+  width: 33%;
+}
+.learningimg2{
+  margin-left: 0.5%;
+}
+.learningwordingbox{
+  margin-top: 8px;
+  font-size: 24px;
+  padding: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: whitesmoke;
+  font-weight: 300;
+  background-color: #0064a3;
+}
+.atabroadwords{
+  background-color: #0064a3;
+}
+.threeimgsinlearning{
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (max-width: 1260px) {
+  .secondsectionrightwordingbox p{
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .homebannerimg {
+    width: 90%;
+  }
+  .threeboxesinmainsectionunder {
+    width: 90%;
+  }
+  .atabroadback {
+    width: 100%;
+  }
+  .atabroadbackwholeborder{
+    margin:auto;
+    width: 90%
+  }
+  .titlename{
+    margin-top: 20px;
+  }
+
+  .atabroadwords p{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+
+
+  .photogallery {
+    width: 90%;
+  }
+
+  .widthofleftrightborder {
+    width: 90%
+  }
+}
+@media screen and (max-width: 1035px) {
+.secondsectionrightwordingbox p{
+  font-size: 16px;
+}
+}
+@media screen and (max-width: 1100px) {
+
+  .titlename{
+    font-size: 30px;
+  }
+  .atabroadwords p{
+    font-size: 18px;
+  }
+  .atabroadback{
+    margin-top: 50px;
+  }
+  .learningwordingbox p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+  .titlename{
+    font-size: 25px;
+  }
+  .atabroadwords p{
+    font-size: 16px;
+  }
+  .atabroadback{
+    margin-top: 50px;
+  }
+  .learningwordingbox p{
+    font-size: 15px;
+  }
+  .secondsectionrightwordingbox p{
+    font-size: 15px;
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+@media screen and (max-width: 897px) {
+  .atabroadwords p{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .titlename{
+    font-size: 23px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  .atabroadwords hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+
+  }
+  .atabroadwords p{
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .atabroadback{
+    margin-top: 50px;
+  }
+
+}
+@media screen and (max-width: 855px) {
+  .secondsectionrightwordingbox p{
+    font-size: 13px;
+  }
+  .atabroadwords p{
+    font-size: 13px;
+  }
+  .learningwordingbox p{
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .mobile600{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .homebannerimg {
+    width: 100%;
+  }
+  .threeboxesinmainsectionunder {
+    width: 90%;
+  }
+  .atabroadback {
+    width: 90%;
+  }
+  .titlename{
+    text-align: center;
+  }
+
+  .desktop600 {
+    display: none;
+  }
+
+  .mobile600 {
+    width: 100%;
+  }
+
+  .navbartohomebanner {
+    height: 215px;
+  }
+  .desktop600{
+    display: none;
+  }
+  .mobile600{
+    width: 100%;
+  }
+  .widthofleftrightborder {
+    width: 90%;
+    padding-left: 5%;
+  }
+  .atabroadwords{
+    background-color: white;
+    width: 100%;
+  }
+  .atabroadwords hr{
+    display: none;
+  }
+  .titlename{
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+  .atabroadwords p{
+    font-size: 28px;
+    text-align: center;
+  }
+  .atabroadimg{
+    width: 100%;
+  }
+  .atabroadimg1{
+    width: 49.5%;
+    margin-top: 10px;
+  }
+  .atabroadimg2{
+    width: 49.5%;
+    height: 47%;
+    margin-top: 8px;
+    margin-left: 1%;
+  }
+  .atabroadimg3{
+    width: 49.5%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .atabroadimg4{
+    width: 49.5%;
+    margin-top: 10px;
+    margin-left: 1%;
+  }
+  .atabroadimg3_2{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .width1{
+    display: none;
+  }
+  .learningimg{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .learningwordingbox p{
+    font-size: 28px;
+  }
+  .bottomthreeboxesunder{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .lifethreeunderwhite{
+    width: 100%;
+  }
+  .secondsectionrightwordingbox{
+    padding: 20px;
+  }
+  .secondsectionrightwordingbox p{
+    font-size: 28px;
+  }
+  .titlename{
+    margin-top: 40px;
+  }
+  .atabroadback{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbartohomebanner {
+    height: 215px;
+  }
+
+  .atabroadwords p{
+    font-size: 20px;
+  }
+  .secondsectionrightwordingbox p{
+    font-size: 20px;
+  }
+  .learningwordingbox p{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .titlename{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+  .atabroadwords p{
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 470px) {
+  .titlename{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  .atabroadwords p{
+    font-size: 15px;
+    text-align: center;
+  }
+  .atabroadwords p{
+    font-size: 18px;
+  }
+  .secondsectionrightwordingbox p{
+    font-size: 18px;
+  }
+  .learningwordingbox p{
+    font-size: 18px;
+  }
+}
