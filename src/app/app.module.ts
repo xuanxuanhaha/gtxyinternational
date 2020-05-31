@@ -9,6 +9,8 @@ import { LearningResourcesComponent } from './learning-resources/learning-resour
 import { AboutUsComponent } from './about-us/about-us.component';
 import { OverseasTrainingComponent } from './overseas-training/overseas-training.component';
 import { OverseasStudentsComponent } from './overseas-students/overseas-students.component';
+import { NewsComponent } from './news/news.component';
+import { NewsdetailpageComponent } from './newsdetailpage/newsdetailpage.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { OverseasStudentsComponent } from './overseas-students/overseas-students
     LearningResourcesComponent,
     AboutUsComponent,
     OverseasTrainingComponent,
-    OverseasStudentsComponent
+    OverseasStudentsComponent,
+    NewsComponent,
+    NewsdetailpageComponent
   ],
   imports: [
     BrowserModule,
