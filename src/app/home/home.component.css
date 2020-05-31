@@ -466,6 +466,11 @@
     font-size: 18px;
   }
 }
+@media screen and (max-width: 400px) {
+  .navbartohomebanner {
+    height: 175px;
+  }
+}
 @media screen and (max-width: 350px) {
   .wordingsintwothreewhite{
     font-size: 15px;

@@ -7,7 +7,9 @@ import { Router} from '@angular/router'; // 导入router服务
   styleUrls: ['./news.component.css']
 })
 export class NewsComponent implements OnInit {
-
+  pageNoList = [];
+  firstload = true;
+  showmoreinlibraryresources = false;
   // article list
   public articleList: {
     Title: string,
@@ -33,8 +35,17 @@ export class NewsComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
     //  显示每页的文章
     this.getPageList();
+    for (let i = 0; i < this.pageNo; i++){
+      this.pageNoList.push(i + 1);
+    }
+
+
+    console.log(this.pageNoList);
+    console.log(this.pageNo);
+
   }
   // 点击新闻事件
   onClickMe(id) {
@@ -105,6 +116,35 @@ export class NewsComponent implements OnInit {
     this.getPageList();
   }
 
-  //  -----------1。实现分页前端部分------------
+
+  choosePage(value){
+    console.log('choosePage', value);
+    if (value > this.pageNo) {
+      confirm('超出最大页数');
+    } else if (value <= 0) {
+      this.curPage = 1;
+      this.getPageList();
+    } else {
+      this.curPage = value;
+      this.getPageList();
+    }
+
+
+    for(let i = 0; i < this.pageNo; i++){
+      if((i + 1) === value){
+
+        document.getElementById('page' + (i + 1)).style.background = 'orange';
+        document.getElementById('page' + (i + 1)).style.border = '1px solid orange';
+        document.getElementById('page' + (i + 1)).style.color = 'white';
+      }else{
+        document.getElementById('page' + (i + 1)).style.background = 'white';
+        document.getElementById('page' + (i + 1)).style.border = '1px solid lightgrey';
+        document.getElementById('page' + (i + 1)).style.color = 'orange';
+      }
+    }
+
+    this.firstload = false;
+
+  }
 
 }
