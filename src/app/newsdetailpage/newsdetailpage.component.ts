@@ -22,6 +22,7 @@ export class NewsdetailpageComponent implements OnInit {
     Author: string,
     Content: {
       Img1: any,
+      Img2: any
     }
   }[] = newsarticles;
   // url id
@@ -64,7 +65,10 @@ export class NewsdetailpageComponent implements OnInit {
     Month: string,
     Subtitle: string,
     Author: string,
-    Content: {}};
+    Content: {
+      Img1: any,
+      Img2: any
+    }};
   public articleListpage = [];  // 分页后前台显示数据
   pageNo = 1; // 当前页码
   preShow = false; // 上一页
