@@ -72,5 +72,8 @@ export class NavbarComponent implements OnInit {
 
 
   }
+   clickimg(){
+    window.open('http://www.gtxy.cn/index.html');
+   }
 
 }

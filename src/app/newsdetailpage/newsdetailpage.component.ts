@@ -20,7 +20,9 @@ export class NewsdetailpageComponent implements OnInit {
     Month: string,
     Subtitle: string,
     Author: string,
-    Content: {}
+    Content: {
+      Img1: any,
+    }
   }[] = newsarticles;
   // url id
   public articleid: number;
@@ -36,7 +38,10 @@ export class NewsdetailpageComponent implements OnInit {
     Month: string,
     Subtitle: string,
     Author: string,
-    Content: {}};
+    Content: {
+      Img1: any,
+      Img2: any
+    }};
   // 前一页文章内容列表
   public previousarticlecontent: {
     Title: string,
