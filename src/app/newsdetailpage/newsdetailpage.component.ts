@@ -74,6 +74,7 @@ export class NewsdetailpageComponent implements OnInit {
   constructor(private routeInfo: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
     this.articleid = Number(this.routeInfo.snapshot.params.id);
     // this.routeInfo.queryParamMap.subscribe((params: ParamMap) => {
     //   this.articleid = Number(params.get('id'));
