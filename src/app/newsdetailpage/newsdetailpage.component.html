@@ -6,49 +6,75 @@
 </div>
 
 
-<div style="height: 100px"></div>
+<div class="navbartohomebanner"></div>
+
+
+  <div >
+    <img style="margin-top:1%;margin-bottom:1%;"  src="assets/{{singlearticlecontent.Content.Img1}}" alt="Card image" class="desktop600 homebannerimg">
+    <img style="margin-top:1%;margin-bottom:1%;"  src="assets/{{singlearticlecontent.Content.Img1}}" alt="Card image" class="mobile600 homebannerimgmobile">
+  </div>
+
+
+<div class="homesmallwording">
+  <div class="widthofleftrightborder" style="margin-top: -1%">
+    <p>Home / News / <span style="color: #fabb7c">{{singlearticlecontent.Title}}</span> </p>
+  </div>
+</div>
 
 
 <!--文章的信息-->
-<div class="row" style="text-align: center">
-  <!--标题，作者，时间部分-->
-  <div class="col-md-12" style="margin-top: 30px;margin-bottom: 30px;">
-    <h5 style="color: green">【{{singlearticlecontent.Type}}】{{singlearticlecontent.Title}}
-    </h5>
-    <p style="color: lightgray">原创 作者-{{singlearticlecontent.Author}} {{singlearticlecontent.Date}}
-    </p>
-    <hr>
+<div class="mainsection">
+  <div class="titlecontent">
+      {{singlearticlecontent.Subtitle}}
   </div>
-  <!--正文部分-->
-  <div class="col-md-12" *ngFor="let key of objectKeys(singlearticlecontent.Content)">
+  <div class="monthyear">
+    {{singlearticlecontent.Month}}, {{singlearticlecontent.Year}}
+  </div>
+  <br>
+  <hr style="border: 1px solid lightgrey">
+  <br>
+
+<!--  <div>-->
+<!--    <img src="assets/{{singlearticlecontent.Content.Img2}}" align="right" width="35%" hspace="5" vspace="5"  style="margin-left: 30px"/>-->
+<!--    <div class="contentp2">{{singlearticlecontent.Content.P2}}</div>-->
+<!--  </div>-->
+
+
+
+
+  <div>
+  <img src="assets/{{singlearticlecontent.Content.Img2}}" align="right" hspace="5" vspace="5" class="contentimg" />
+  <div *ngFor="let key of objectKeys(singlearticlecontent.Content)" class="contentp2">
     <!--{{key}}-->
-    <p style="text-indent:2em;margin-left: 15%;margin-right: 15%;margin-top:1%;margin-bottom:1%; text-align: left;" *ngIf="key.toString().includes('P')">
+    <p  *ngIf="key.toString().includes('P')">
       {{singlearticlecontent.Content[key]}}
     </p>
-
-
-    <img *ngIf="key.toString().includes('I')" style="margin-top:1%;margin-bottom:1%;" class="row-cols-sm-3 col-6" src="assets/{{singlearticlecontent.Content[key]}}" alt="Card image">
   </div>
-
-</div>
-
-<!--上一条新闻-->
-<div class="row" style="text-align: center">
-
-  <div class="col-md-12" id="">
-
-    <button (click)="previouspage()" style="margin-top: 20px;margin-bottom: 20px;" type="button" class="btn btn-outline-success col-7">
-      上一篇：{{previousarticlecontent.Title}}
-    </button>
-
-    <button (click)="nextpage()" style="margin-bottom: 20px;" type="button" class="btn btn-outline-success col-7">
-      下一篇：{{nextarticlecontent.Title}}
-    </button>
-
-
   </div>
 
 </div>
 
 
+<!--&lt;!&ndash;上一条新闻&ndash;&gt;-->
+<!--<div class="row" style="text-align: center">-->
+
+<!--  <div class="col-md-12" id="">-->
+
+<!--    <button (click)="previouspage()" style="margin-top: 20px;margin-bottom: 20px;" type="button" class="btn btn-outline-success col-7">-->
+<!--      上一篇：{{previousarticlecontent.Title}}-->
+<!--    </button>-->
+
+<!--    <button (click)="nextpage()" style="margin-bottom: 20px;" type="button" class="btn btn-outline-success col-7">-->
+<!--      下一篇：{{nextarticlecontent.Title}}-->
+<!--    </button>-->
+
+
+<!--  </div>-->
+
+<!--</div>-->
+<br>
+<br>
+<br>
+<br>
+<app-footer></app-footer>
 

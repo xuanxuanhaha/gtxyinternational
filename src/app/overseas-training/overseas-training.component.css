@@ -114,7 +114,11 @@
   }
 
 }
-
+@media screen and (max-width: 991px) {
+  .navbartohomebanner {
+    height: 240px;
+  }
+}
 @media screen and (max-width: 990px) {
   .atabroadback {
     width: 800px;

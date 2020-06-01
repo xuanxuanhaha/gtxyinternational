@@ -18,7 +18,7 @@ export class NewsdetailpageComponent implements OnInit {
     Date: string,
     Year: string,
     Month: string,
-    Day: string,
+    Subtitle: string,
     Author: string,
     Content: {}
   }[] = newsarticles;
@@ -34,7 +34,7 @@ export class NewsdetailpageComponent implements OnInit {
     Date: string,
     Year: string,
     Month: string,
-    Day: string,
+    Subtitle: string,
     Author: string,
     Content: {}};
   // 前一页文章内容列表
@@ -45,7 +45,7 @@ export class NewsdetailpageComponent implements OnInit {
     Date: string,
     Year: string,
     Month: string,
-    Day: string,
+    Subtitle: string,
     Author: string,
     Content: {}};
   // 后一页文章内容
@@ -57,10 +57,20 @@ export class NewsdetailpageComponent implements OnInit {
     Date: string,
     Year: string,
     Month: string,
-    Day: string,
+    Subtitle: string,
     Author: string,
     Content: {}};
+  public articleListpage = [];  // 分页后前台显示数据
+  pageNo = 1; // 当前页码
+  preShow = false; // 上一页
+  nextShow = true; // 下一页
+  pageSize = 5; // 单页显示数
+  totalCount = 0; // 总页数
+  pageSizes = [5, 10, 15];
+  curPage = 1; // 当前页
 
+  newsNo = 1;
+  //
   constructor(private routeInfo: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
@@ -71,6 +81,8 @@ export class NewsdetailpageComponent implements OnInit {
     this.showarticlecontent();
     this.showpreviousarticlecontent();
     this.shownextarticlecontent();
+    this.getPageList();
+    console.log(this.singlearticlecontent);
   }
   async showarticlecontent() {
     this.singlearticlecontent = this.articleList[this.articleid];
@@ -116,6 +128,31 @@ export class NewsdetailpageComponent implements OnInit {
     } else {
       this.articleid = this.articleList.length - 1;
     }
+  }
+  getPageList() {
+    if (this.articleList.length >= 1) {
+      if (this.articleList.length % this.pageSize === 0) {
+        this.pageNo = Math.floor(this.articleList.length / this.pageSize);
+      } else {
+        this.pageNo = Math.floor(this.articleList.length / this.pageSize) + 1;
+      }
+      if (this.pageNo < this.curPage) {
+        this.curPage = this.curPage - 1;
+      }
+      if (this.pageNo === 1 || this.curPage === this.pageNo) {
+        this.preShow = this.curPage !== 1;
+        this.nextShow = false;
+      } else {
+        this.preShow = this.curPage !== 1;
+        this.nextShow = true;
+      }
+    } else {
+      this.articleList.length = 0;
+      this.pageNo = 1;
+      this.curPage = 1;
+    }
+    this.articleListpage = this.articleList.slice((this.curPage - 1) * this.pageSize, (this.curPage) * this.pageSize);
+
   }
 
 }

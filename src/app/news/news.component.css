@@ -152,6 +152,9 @@
     font-size: 15px;
     margin-top: -20px;
   }
+  .navbartohomebanner{
+    height: 240px;
+  }
 }
 @media screen and (max-width: 800px) {
   .newstime{

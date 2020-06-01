@@ -107,6 +107,11 @@
     margin-top: 35vw;
   }
 }
+@media screen and (max-width: 991px) {
+  .navbartohomebanner {
+    height: 240px;
+  }
+}
 @media screen and (min-width: 769px) {
   .mobile600{
     display: none;

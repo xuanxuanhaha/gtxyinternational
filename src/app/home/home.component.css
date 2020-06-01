@@ -317,7 +317,11 @@
     width: 100%;
   }
 }
-
+@media screen and (max-width: 991px) {
+  .navbartohomebanner {
+    height: 240px;
+  }
+}
 @media screen and (max-width: 920px) {
   .lifeatGRPcontentwordings b {
     font-size: 15px;
